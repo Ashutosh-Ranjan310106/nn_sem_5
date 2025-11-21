@@ -1,4 +1,12 @@
 7/9/2025
 np.bincount :- counts how many times a value have occured in a arr like value_counts in p. for 2 arr we trick it by using first arr as 2pos and second as first pos (for arr x and y each num will be x*10+y)
 np.add.at :- for each index, add the value at that position — handling duplicates correctly.(np.add.at(conf_matrix, (predicted_labels, y_test), 1))
-batch_size :- number of img passed in each irritation before calculating backpropagation
+batch_size :- number of img passed in each irritation before calculating backpropagation(no of samples after which the model will update the weights )
+
+8/9/2025
+Forward pass(Vectorized ):-
+    Z1 = W1X + b1 (broadcasting)
+    A1 = sigma(Z1)
+
+    Z2 = W2A1 + b2
+    y' = 
